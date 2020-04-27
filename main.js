@@ -10,6 +10,8 @@ todoList.addEventListener('click', deleteTodo)
 todoFilter.addEventListener('click', filterTodo)
 document.addEventListener('DOMContentLoaded', getTodos)
 
+
+
 // functions
 function addTodo(e) {
     e.preventDefault()
